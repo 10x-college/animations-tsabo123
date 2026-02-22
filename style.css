@@ -266,12 +266,7 @@ p {
   align-items: center;
   cursor: pointer;
 }
-.btn-wrapper-footer {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  height: 346px;
-}
+
 
 .btn-home {
   width: 104px;
@@ -384,11 +379,11 @@ p {
   color: white;
 }
 
- .btn-contact, .btn, .btn-card {
+.btn-home, .btn-product, .btn-contact, .btn, .btn-card {
   transition: 0.3s ease, color 0.3s ease;
 }
 
- .btn-contact:hover, .btn:hover, .btn-card:hover  {
+.btn-home:hover, .btn-product:hover, .btn-contact:hover, .btn:hover, .btn-card:hover  {
   
   transition: all 0.3s ease;
   background-color: #333;
@@ -520,10 +515,24 @@ p {
   color: #000;
 }
 
+.btn-wrapper-footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 346px;
+}
+.btn-wrapper-footer .btn-footer {
+  cursor: pointer;
+transition: background-color 0.3s ease, color 0.3 ease;
+}
+.btn-wrapper-footer .btn-footer:hover{
+  background-color: white;
+  
+}
+
+
 .btn-wrapper-footer .btn-footer {
   display: inline-block;      
- 
-  
   cursor: pointer;
 
   animation: bouns 2s linear infinite;
