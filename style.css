@@ -526,15 +526,11 @@ p {
 transition: background-color 0.3s ease, color 0.3 ease;
 }
 .btn-wrapper-footer .btn-footer:hover{
-  background-color: white;
-  
+  background-color: white; 
 }
-
-
 .btn-wrapper-footer .btn-footer {
   display: inline-block;      
   cursor: pointer;
-
   animation: bouns 2s linear infinite;
 }
 
